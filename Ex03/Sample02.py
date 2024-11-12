@@ -17,18 +17,19 @@ d = dict(zip(names, bDays))
 
 # Please complete the functions below
 
-'''
-print out the names in the dictionary 
-'''
+# print out the names in the dictionary 
 def printNames(target : dict) -> None:
-    pass
-
-
-
-'''
-print out their bDays in the dictionary
-'''
-
+    for each in target.keys():
+        print(each)
+# print out their bDays in the dictionary
 def printBDays(target : dict) -> None :
-    pass
+    for each in target.values():
+        print(each)
+# print out the names and their bDays
+def printBoth(target : dict) -> None :
+    for each in target.items():
+        print(each)
 
+######################RUN###################
+# print(d)
+printBoth(d)
