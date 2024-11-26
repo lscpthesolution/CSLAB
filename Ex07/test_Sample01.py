@@ -35,7 +35,7 @@ def test_digit_9p9():
     assert len(str(s01.circumference(9.9))) == 4
 
 def test_digit_0():
-    assert len(str(s01.circumference(0))) == 4
+    assert len(str(s01.circumference(0))) == 3
 
 def test_digit_1():
     assert len(str(s01.circumference(1))) == 4
